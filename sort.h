@@ -22,5 +22,9 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
+void allign_nodes(listint_t **head, listint_t **node1, listint_t *node2);
+void swap(int *x, int *y);
+void quicksort_recursion(int *array, size_t size, int low, int high);
+int partition(int *array, size_t size, int low, int high);
 
 #endif /* SORT_H */
