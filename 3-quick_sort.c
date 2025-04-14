@@ -46,7 +46,7 @@ int partition(int *array, size_t size, int low, int high)
 			over++;
 		}
 	}
-	
+
 	if (array[over] > *pivot_value)
 	{
 		swap(array + over, pivot_value);
