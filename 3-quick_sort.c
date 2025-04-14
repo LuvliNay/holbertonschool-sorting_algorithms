@@ -57,7 +57,7 @@ int partition(int *array, size_t size, int low, int high)
 }
 
 /**
- * quicksort_result - implements the quicksort algorithm
+ * quicksort_recursion - implements the quicksort algorithm
  * through recursion
  * @array: array
  * @size: size
